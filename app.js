@@ -603,8 +603,9 @@ function sendButtonMessage(recipientId) {
           text: "This is test text",
           buttons:[{
             type: "web_url",
-            url: "https://www.oculus.com/en-us/rift/",
-            title: "Open Web URL"
+            url: "https://danielags.dse.io/webview.html",
+            title: "Open Web URL",
+	    messenger_extensions: true
           }, {
             type: "postback",
             title: "Trigger Postback",
