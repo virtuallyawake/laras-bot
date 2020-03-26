@@ -644,7 +644,7 @@ function sendGenericMessage(recipientId) {
 	    default_action: {
 	      type: "web_url",
 	      url: "https://www.oculus.com/en-us/rift/",
-	    }
+	    },
             buttons: [{
               type: "web_url",
               url: "https://www.oculus.com/en-us/rift/",
