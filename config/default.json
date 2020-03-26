@@ -2,5 +2,5 @@
     "appSecret": "44cfb562c59750a76b1ea755cffd41ac",
     "pageAccessToken": "EAAGfbQN3vicBABoDVhvvYLVQoHDtsxXLy1wUOoziZCC27I6cX82o4FFCQUogc3JzdBkOMgRMtuXVOVtaYKy4ptOO2k6jNP99lEmU9nTZB56RpN2VkOaiFYgxIibTEYZABUNIwhEZCF8e5XCVvH24pw40rFDbg4Pr6iZA6NKtF9JsPHN9ZCN5KLntC9qAAdr90ZD",
     "validationToken": "TOKEN",
-    "serverURL": "to_be_set_manually"
+    "serverURL": "https://laras-bot.herokuapp.com"
 }
