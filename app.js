@@ -646,13 +646,13 @@ function sendGenericMessage(recipientId) {
 	      url: "https://www.oculus.com/rift-s/",
 	    },
             buttons: [{
-              type: "web_url",
-              url: "https://www.oculus.com/rift-s/",
-              title: "Open Web URL"
-            }, {
               type: "postback",
               title: "Call Postback",
               payload: "Payload for first bubble",
+            }, {
+              type: "web_url",
+              url: "https://www.oculus.com/rift-s/",
+              title: "Open Web URL"
             }],
           }, {
             title: "quest",
