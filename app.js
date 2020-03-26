@@ -638,16 +638,16 @@ function sendGenericMessage(recipientId) {
         payload: {
           template_type: "generic",
           elements: [{
-            title: "rift",
-            subtitle: "Next-generation virtual reality",
+            title: "rift-s",
+            subtitle: "Rift-s: PC virtual reality gaming",
             image_url: SERVER_URL + "/assets/rift.png",
 	    default_action: {
 	      type: "web_url",
-	      url: "https://www.oculus.com/en-us/rift/",
+	      url: "https://www.oculus.com/rift-s/",
 	    },
             buttons: [{
               type: "web_url",
-              url: "https://www.oculus.com/en-us/rift/",
+              url: "https://www.oculus.com/rift-s/",
               title: "Open Web URL"
             }, {
               type: "postback",
@@ -655,13 +655,13 @@ function sendGenericMessage(recipientId) {
               payload: "Payload for first bubble",
             }],
           }, {
-            title: "touch",
-            subtitle: "Your Hands, Now in VR",
-            item_url: "https://www.oculus.com/en-us/touch/",
+            title: "quest",
+            subtitle: "Quest: All-in-one gaming headset",
+            item_url: "https://www.oculus.com/quest/",
             image_url: SERVER_URL + "/assets/touch.png",
             buttons: [{
               type: "web_url",
-              url: "https://www.oculus.com/en-us/touch/",
+              url: "https://www.oculus.com/quest/",
               title: "Open Web URL"
             }, {
               type: "postback",
