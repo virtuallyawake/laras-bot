@@ -653,6 +653,12 @@ function sendGenericMessage(recipientId) {
               type: "web_url",
               url: "https://www.oculus.com/rift-s/",
               title: "Open Web URL"
+            },
+		     {
+              "type": "web_url",
+              "title": "For more information",
+              "url": "https://api.chatfuel.com/button_url?url=https%3A%2F%2Fwww.iq.zain.com%2Fen%2Fimtiyaz&sch=&user=fb_2700691876727284&page=2407635052800204&block=5d7f4aa3677419000195199a&card=5d7f4aae677419000195251e&title=For+more+information&counters=5d7f4aae677419000195251e%2C5e25b9157783fd000101ba08%2C5d7f4aae6774190001952531%2C5d7f4aae6774190001952532%2C5d7f4aae6774190001952533%2C5d7f4aae6774190001952534%2C5d7f4aae6774190001952535%2C5d7f4aae6774190001952536%2C5d7f4aae6774190001952537%2C5d7f4aae6774190001952538%2C5d7f4aae6774190001952539%2C5d7f4aae677419000195253a%2C5d7f4aae677419000195253b%2C5d7f4aae677419000195253c%2C5d7f4aae677419000195253d%2C5d7f4aae677419000195253e%2C5d7f4aae677419000195253f%2C5d7f4aae6774190001952540%2C5d7f4aae6774190001952541%2C5d7f4aae6774190001952542%2C5d7f4aae6774190001952543%2C5d7f4aae6774190001952544%2C5d7f4aae6774190001952545%2C5d7f4aae6774190001952546",
+              "webview_height_ratio": "tall"
             }],
           }, {
             title: "quest",
