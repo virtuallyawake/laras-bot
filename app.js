@@ -775,6 +775,9 @@ function sendQuickReply(recipientId) {
           "content_type":"text",
           "title":"Drama",
           "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_DRAMA"
+        },
+        {
+          "content_type":"user_phone_number"
         }
       ]
     }
